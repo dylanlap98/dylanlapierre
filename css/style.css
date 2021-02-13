@@ -6,14 +6,24 @@
 }
 
 p{
-	color: #22303E;
-	font-size: 22px;
+	font-size: 18px;
+	color: black;
 }
 
 body{
 	background-image: url("../images/unsplash_bgnd1.jpg");
+	/* background img from: https://unsplash.com/photos/WrVvYxq11Yk */
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+h3{
+	color: #085581;
+}
+
+h5{
+	color: #161616;
+	font-size: 1.8vw;
 }
 
 .header{
@@ -73,4 +83,26 @@ body{
 	height: 100%;
 	font-family: Arial;
 	font-size: 18px;
+}
+
+.quote{
+	display: block;
+	/*background: rgba(255,255,255,.65);*/
+	font-size: 28px;
+	text-align: center;
+	width: 48%;
+	padding: 10px 20px;
+	margin: auto;
+	margin-top: 6%;
+}
+
+.box1{
+	margin-top: 12%;
+	margin-right: 8%;
+	padding: 2.5% 5%;
+	border-radius: 5px;
+	background: rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	float: right;
+	width: 38%;
 }
