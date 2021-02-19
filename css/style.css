@@ -6,7 +6,7 @@
 }
 
 p{
-	font-size: 18px;
+	font-size: 1.2vw;
 	color: black;
 }
 
@@ -95,9 +95,23 @@ h5{
 	margin: auto;
 	margin-top: 6%;
 }
+section{
+
+}
 
 .box1{
-	margin-top: 12%;
+	margin-top: 5%;
+	margin-right: 8%;
+	padding: 2.5% 5%;
+	border-radius: 5px;
+	background: rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	float: right;
+	width: 38%;
+}
+
+.box2{
+	margin-top: 5%;
 	margin-right: 8%;
 	padding: 2.5% 5%;
 	border-radius: 5px;
